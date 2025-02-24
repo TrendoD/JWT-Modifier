@@ -1,6 +1,6 @@
 # JWT Modifier
 
-A command-line tool for analyzing and modifying JWTs during CTF challenges.
+A command-line tool for analyzing and modifying JWTs. I created this tool just to help me solve CTF challenges in the future. If you find any bugs or have questions about this tool, feel free to DM me directly.
 
 ## Features
 
@@ -49,21 +49,6 @@ A command-line tool for analyzing and modifying JWTs during CTF challenges.
 - `Modify Payload`: Edit claims or add admin privileges
 - `Generate New JWT`: Create token with your modifications
 - `Exit`: Quit program
-
-## CTF Tips
-
-1. **Algorithm Switching**
-   - Try changing RS256 to HS256
-   - Test "none" algorithm bypass
-
-2. **Payload Tampering**
-   - Modify admin flags
-   - Change user roles
-   - Add privileged claims
-
-3. **Key Testing**
-   - Use public key as secret for HS256
-   - Test different key formats
 
 ## Dependencies
 
